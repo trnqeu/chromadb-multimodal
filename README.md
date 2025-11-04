@@ -74,6 +74,7 @@ Finally, run the main Gradio application. It will connect to the persistent data
 ```bash
 docker run --rm -p 7860:7860 \
   -v ./my_local_vectordb:/app/my_vectordb \
+  -v ./data:/data \
   chromadb-multimodal
 ```
 
